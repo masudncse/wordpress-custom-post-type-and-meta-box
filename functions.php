@@ -1,8 +1,3 @@
-An easy example for custom post type and meta box for custom post type in WordPress. 
-Copy & paste the below code into your functions.php. 
-Then feel the magic. :)
-
-```
 <?php
 
 /**
@@ -97,4 +92,3 @@ function save_custom_fields($post_id)
 add_action('save_post', 'save_custom_fields');
 
 ?>
-```
